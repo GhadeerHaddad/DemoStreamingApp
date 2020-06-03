@@ -1,0 +1,40 @@
+.header-main{
+    display: flex;
+    width: 1540px;
+    background-color: rgb(58, 58, 216);
+    color: white;
+    height: 50px;
+    align-items: center;
+}
+.header-title {
+    justify-content: space-between ;
+    margin: 10px 180px;
+   
+}
+.header-menu{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 396px;
+    color: white;
+
+}
+ .login-button{
+     justify-content: space-between;
+     margin: 7px 20px;
+     border: none;
+     background-color: rgb(58, 58, 216);
+     color: white;
+    font-size: medium;
+ }
+ 
+ .trial-button{
+    justify-content: space-between;
+    margin: auto;
+    background-color: rgb(77, 73, 73);
+    color: white;
+    padding: 7px 10px;
+    border-radius: 2px;
+    font-size: medium;
+
+
+ }

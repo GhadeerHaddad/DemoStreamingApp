@@ -1,0 +1,25 @@
+.button-main{
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row;
+    height: 10px;
+}
+.button-class {
+  justify-content: space-between;
+  margin-left:15px;
+  margin-right: 15px;
+  border: none;
+  color: gray;
+  font-size: medium;
+  background-color: rgb(37, 33, 33);
+  padding: 0;
+}
+
+.login-button {
+  justify-content: space-between;
+  margin: 7px 20px;
+  border: none;
+  background-color: rgb(58, 58, 216);
+  color: white;
+  font-size: medium;
+}

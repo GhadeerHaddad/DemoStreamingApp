@@ -1,0 +1,27 @@
+.card-main {
+  display: flex;
+  flex-flow: row wrap;
+  align-content: center;
+  margin-right: 15px;
+  width: 143px;
+}
+.card-image {
+  display: flex;
+  flex-flow: row wrap;
+  align-content: center;
+  flex: 1 0 70%;
+  height: 190px;
+  width: 143px;
+  background-color: rgb(37, 33, 33);
+  margin-top: 40px;
+}
+
+.image-class{
+    height: 190px;
+    width: 143px;
+}
+.card-caption {
+  color: black;
+  height: 10px;
+  margin-top: -18px;
+}

@@ -1,0 +1,14 @@
+ .content-home-card { 
+    width: 1540px;
+    height: 200px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    flex: 1 0 70%;
+    margin-top: -225px;
+    margin-left: 180px;
+  }
+
+  .content-card-item {
+    margin-right: 20px;
+  }
