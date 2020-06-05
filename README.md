@@ -3,9 +3,9 @@ This project is a "Demo Streaming App" which gets list of movies and series from
 The project is built using React js.
 
 The Architectural choices of the porject:
-the app consists of 3 main pages 1- Home     and I used class components to build the pages, to use states and lifecycle methods.
-                                 2- Movies
-                                 3-Series
+the app consists of 3 main pages 1- Home 2- Movies 3-Series and I used class components to build the pages, to use states and lifecycle methods.
+                               
+                                
  each page has 3 main components Header, Content, Footer which are all functional components becasue its representational components.
  To make the code effecient and reusable, I created Card and Button using functional components for reusability as the card component will be used to show movies or series. The loading and error states are handled as well when fetching the JSON feed.
  
