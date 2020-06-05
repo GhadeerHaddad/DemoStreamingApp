@@ -9,10 +9,10 @@
   display: flex;
   flex-flow: row wrap;
   align-content: center;
-  flex: 1 0 70%;
+  /* flex: 1 0 70%; */
   height: 190px;
   width: 143px;
-  background-color: rgb(37, 33, 33);
+  background-color: rgb(66, 61, 61);
   margin-top: 40px;
 }
 
@@ -24,4 +24,44 @@
   color: black;
   height: 10px;
   margin-top: -18px;
+}
+
+@media screen and (max-width: 940px) {
+  .card-main {
+    flex: 1 0 25%;
+  }
+  .card-image {
+    /* margin-left: -32px; */
+    margin-top: 40px;
+
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .card-main {
+    margin-right: 15px;
+    flex: 1 0;
+    /* width: 143px; */
+    /* margin-left:  */
+
+  }
+  .card-image {
+    flex: 1 0 30%;
+    height: 190px;
+    width: 143px;
+    background-color: rgb(37, 33, 33);
+    margin-top: 40px;
+    /* margin-left: -88px; */
+  }
+}
+
+@media screen and (max-width: 445px) {
+  .card-main {
+    flex: 1 0;
+  }
+  .card-image {
+    /* margin-left: -32px; */
+    margin-top: 40px;
+
+  }
 }

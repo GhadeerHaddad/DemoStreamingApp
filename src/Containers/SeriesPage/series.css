@@ -1,5 +1,5 @@
 .series-page-class {
-  width: 1111px;
+  width: 1000px;
   display: flex;
   flex-flow: row wrap;
   align-content: center;
@@ -19,4 +19,62 @@
   margin-left: 180px;
   margin-top: -200px;
   font-family: Arial, Helvetica, sans-serif;
+}
+@media screen and (max-width: 1536px){
+  .series-page-class {
+    width: 1111px;
+    margin-left: 180px;
+  }
+  .series-class {
+    width: 80px;
+    flex: 1 0 70%;
+  }
+}
+@media screen and (max-width: 1240px){
+  .series-page-class {
+    width: 940px;
+    margin-left: 180px;
+  }
+  .series-class {
+    width: 80px;
+    flex: 1 0 50%;
+  }
+}
+@media screen and (max-width: 940px){
+  .series-page-class {
+    width: 640px;
+    margin-left: 93px;
+  }
+  .series-class {
+    width: 80px;
+    flex: 1 0 20%;
+  }
+}
+
+@media screen and (max-width: 640px){
+  .series-page-class {
+    width: 640px;
+    margin-left: 93px;
+  }
+  .series-class {
+    width: 80px;
+    flex: 1 0 20%;
+  }
+}
+
+@media screen and (max-width: 360px){
+  .series-page-class {
+    margin-left: 70px;
+  }
+  .series-class {
+    flex: 1 0 20%;
+  }
+}
+@media screen and (max-width: 345px){
+  .series-page-class {
+    margin-left: 40px;
+  }
+  .series-class {
+    flex: 1 0 20%;
+  }
 }

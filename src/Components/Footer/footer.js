@@ -30,7 +30,6 @@ const footer = (props) => {
           <img className="footer-stores-item" src={require('../../Asset/images/GooglePlayImage.png')} alt="Google Play icon" />
           <img className="footer-stores-item" src={require('../../Asset/images/MicrosoftBadge.png')} alt="Get it from Microsoft icon" />
           </div>
-          {/* <a href="http://www.digg.com" > <img src="/templates/platinum/images/social/digg.png"  alt="Digg" /> </a> */}
     </div>
     </div>
   );

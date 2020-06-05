@@ -23,3 +23,9 @@
   color: white;
   font-size: medium;
 }
+
+@media screen and (max-width: 445px){
+  .login-button {
+    margin-left: -480px;
+  }
+}
