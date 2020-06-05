@@ -1,3 +1,19 @@
+This project is a "Demo Streaming App" which gets list of movies and series from a JSON feed where the data is fetched, filtered, and displayed to the user you can enjoy the appealing responsive design of "Demo Streaming App" on your mobile, tablet, and your PC.
+
+The project is built using React js.
+
+The Architectural choices of the porject:
+the app consists of 3 main pages 1- Home     and I used class components to build the pages, to use states and lifecycle methods.
+                                 2- Movies
+                                 3-Series
+ each page has 3 main components Header, Content, Footer which are all functional components becasue its representational components.
+ To make the code effecient and reusable, I created Card and Button using functional components for reusability as the card component will be used to show movies or series. The loading and error states are handled as well when fetching the JSON feed.
+ 
+ The improvements would be make all elements on the page functional like login button, menus in the footer and add some animations to the page. so far if you click on Demo Streaming, it will take you to Home page again.
+ 
+ If I had more time, I would make the components more responsive and stable on different screen sizes, and I will add more functionalities to elements on the page.
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
